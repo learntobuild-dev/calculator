@@ -15,5 +15,17 @@ public class Tests
     public void MultipleAdd()
     {
         Assert.AreEqual(3, Program.Evaluate("1+1+1"));
-    }    
+    }
+    
+    [Test]
+    public void Subtract()
+    {
+        Assert.AreEqual(1, Program.Evaluate("3-2"));
+    }
+
+    [Test]
+    public void AddAndSubtract()
+    {
+        Assert.AreEqual(2, Program.Evaluate("3-2+1"));
+    }
 }
