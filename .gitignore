@@ -1,2 +1,6 @@
 bin/
 obj/
+pre-commit*
+prepare-commit-msg*
+commit-msg*
+hooks-trace.log
