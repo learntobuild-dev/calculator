@@ -1,17 +1,13 @@
+using calculator;
 using NUnit.Framework;
 
 namespace calculator.tests;
 
 public class Tests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
-    public void Test1()
+    public void Add()
     {
-        Assert.Pass();
+        Assert.AreEqual(2, Program.Evaluate("1+1"));
     }
 }
