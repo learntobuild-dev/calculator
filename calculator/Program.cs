@@ -9,6 +9,11 @@ public class Program
     public static double Evaluate(string expression)
     {
         var parts = expression.Split('+');
-        return double.Parse(parts[0]) + double.Parse(parts[1]);
+        var result = 0d;
+        foreach (var subExpression in parts)
+        {
+            result += double.Parse(subExpression);
+        }
+        return result;
     }
 }
