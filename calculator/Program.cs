@@ -8,6 +8,7 @@ public class Program
 
     public static double Evaluate(string expression)
     {
-        throw new NotImplementedException();
+        var parts = expression.Split('+');
+        return double.Parse(parts[0]) + double.Parse(parts[1]);
     }
 }

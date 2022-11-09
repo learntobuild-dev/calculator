@@ -4,3 +4,4 @@ pre-commit*
 prepare-commit-msg*
 commit-msg*
 hooks-trace.log
+TestResults/
