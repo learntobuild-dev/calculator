@@ -3,7 +3,7 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine(Evaluate(args[0]));
     }
 
     public static double Evaluate(string expression)
