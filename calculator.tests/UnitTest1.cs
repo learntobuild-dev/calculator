@@ -40,10 +40,4 @@ public class Tests
     {
         Assert.AreEqual(5, Program.Evaluate("10-2-3"));
     }
-
-    [Test]
-    public void Subtract3()
-    {
-        Assert.AreEqual(7, Program.Evaluate("10-2-1"));
-    }
 }
