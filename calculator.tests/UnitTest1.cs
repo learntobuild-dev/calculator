@@ -39,5 +39,11 @@ public class Tests
     public void Subtract2()
     {
         Assert.AreEqual(5, Program.Evaluate("10-2-3"));
-    }    
+    }
+
+    [Test]
+    public void Subtract3()
+    {
+        Assert.AreEqual(7, Program.Evaluate("10-2-1"));
+    }
 }
